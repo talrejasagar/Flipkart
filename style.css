@@ -100,11 +100,12 @@ input:focus {
 .deal {
   display: flex;
   flex-direction: row;
+  justify-content: flex-end;
 }
 .deal-header {
-  display: inherit;
+  display: flex;
   line-height: 20px;
-  flex: 0.8;
+  flex: 1;
   background-color: white;
 }
 .deal-header button {
@@ -122,8 +123,10 @@ input:focus {
   display: flex;
   font-family: Roboto,Arial,sans-serif;
   flex-wrap: wrap;
-  justify-content: space-between;
-  background-color: white;
+  position: absolute;
+  background-color: transparent;
+  top: 75%;
+  
   
 }
 
@@ -133,12 +136,13 @@ input:focus {
   text-align: center;
   font-size: 12px;
   background-color: white;
+  padding: 0 10px;
 }
 
 .item1 img {
   margin-top: 10px;
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
 }
 .font1{
   font-size: 14px;
@@ -155,11 +159,10 @@ input:focus {
 }
 
 .refer{
-  height: 320px;
+  height: 300px;
   width: 180px;
   
-  flex-direction: row;
-  display: flex;
+  
   
 
 }
