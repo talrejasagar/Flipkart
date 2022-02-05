@@ -1,0 +1,165 @@
+body {
+  background-color: #f1f3f6;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  background-color: #2874f0;
+  flex-direction: row;
+  height: 40px;
+  flex: 1;
+  justify-content: space-around;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+input {
+  border: 0;
+  outline: 0;
+}
+input:focus {
+  outline: none !important;
+}
+
+.search {
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-radius: 2px;
+  border: none;
+}
+
+.sbutton {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  padding: 2px;
+  border-radius: 2px;
+}
+
+#fkplus {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-left: 10%;
+  margin-right: 6px;
+}
+#fkplus img {
+  height: 20px;
+}
+
+.loginbar {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 10%;
+}
+.loginbtn {
+  padding: 2px 10px;
+  background-color: white;
+  color: #2874f0;
+  border-radius: 2px;
+}
+.more h3 {
+  color: white;
+}
+
+.cart {
+  display: flex;
+  color: white;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 2px;
+}
+
+.mid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  text-align: center;
+  font-size: 10px;
+  background-color: white;
+}
+
+.middle img {
+  height: 40px;
+}
+.slider img {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.deal {
+  display: flex;
+  flex-direction: row;
+}
+.deal-header {
+  display: inherit;
+  line-height: 20px;
+  flex: 0.8;
+  background-color: white;
+}
+.deal-header button {
+  position: relative;
+  top: 22px;
+  height: 20px;
+  margin-left: 70%;
+}
+
+
+
+.deal-item {
+  height: 200px;
+  width: 80%;
+  display: flex;
+  font-family: Roboto,Arial,sans-serif;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: white;
+  
+}
+
+.item1 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 12px;
+  background-color: white;
+}
+
+.item1 img {
+  margin-top: 10px;
+  height: 200px;
+  width: 200px;
+}
+.font1{
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 15px;
+  
+}
+.font2{
+  font-size: 16px;
+  color: #388e3c;
+}
+.font3{
+  font-size: 12px;
+}
+
+.refer{
+  height: 320px;
+  width: 180px;
+  
+  flex-direction: row;
+  display: flex;
+  
+
+}
