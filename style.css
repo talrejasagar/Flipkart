@@ -115,19 +115,15 @@ input:focus {
   margin-left: 70%;
 }
 
-
-
 .deal-item {
   height: 200px;
   width: 80%;
   display: flex;
-  font-family: Roboto,Arial,sans-serif;
+  font-family: Roboto, Arial, sans-serif;
   flex-wrap: wrap;
   position: absolute;
   background-color: transparent;
   top: 75%;
-  
-  
 }
 
 .item1 {
@@ -144,25 +140,32 @@ input:focus {
   height: 150px;
   width: 150px;
 }
-.font1{
+.font1 {
   font-size: 14px;
   font-weight: 500;
   margin-top: 15px;
-  
 }
-.font2{
+.font2 {
   font-size: 16px;
   color: #388e3c;
 }
-.font3{
+.font3 {
   font-size: 12px;
 }
 
-.refer{
+.refer {
   height: 300px;
   width: 180px;
-  
-  
-  
+}
 
+.deal-item1 {
+  height: 200px;
+  flex: 1;
+  display: flex;
+  font-family: Roboto,Arial,sans-serif;
+  
+  background-color: white;
+  
+  
+  
 }
